@@ -7,11 +7,11 @@ public class GitCollaborationTest {
 
 		Welcome myGreeting = new Welcome();
 		myGreeting.type = "Welcome to Github!!!";
-		myGreeting.name = "What's your GitHub user name?";
+		myGreeting.yourName = "What's your GitHub user name?";
 		welcomeArray.add(myGreeting);
 		
 		for (Welcome greeting : welcomeArray) {
-			System.out.println(greeting.type + '\n' + greeting.name);
+			System.out.println(greeting.type + '\n' + greeting.yourName);
 
 		}
 
