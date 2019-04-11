@@ -6,7 +6,7 @@ public class GitCollaborationTest {
 		ArrayList<Welcome> welcomeArray = new ArrayList<Welcome>();
 
 		String type = "Welcome to Github!!!";
-		String yourName = "Chin Jung Cheng";
+		String yourName = "Erwin Cornejo";
 		Welcome myGreeting = new Welcome(type, yourName);
 
 		welcomeArray.add(myGreeting);
