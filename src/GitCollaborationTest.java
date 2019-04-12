@@ -6,13 +6,13 @@ public class GitCollaborationTest {
 		ArrayList<Welcome> welcomeArray = new ArrayList<Welcome>();
 
 		String type = "Welcome to Github!!!";
-		String yourName = "Erwin Cornejo";
+		int yearDurationOfUsingGitHub = 1;
 		Welcome myGreeting = new Welcome(type, yourName);
 
 		welcomeArray.add(myGreeting);
 
 		for (Welcome greeting : welcomeArray) {
-			System.out.println(greeting.type + '\n' + greeting.yourName);
+			System.out.println(greeting.type + '\n' + greeting.yearDurationOfUsingGitHu);
 		}
 
 	}
